@@ -66,21 +66,19 @@ The products are stored in a list of ProductModel objects and displayed using Li
 
 The application uses network images to display product photos.
 
-## Screenshots
-
-### Splash Screen
+## Splash Screen
 ![Splash Screen](screenshots/splash_Screenshot.jpeg)
 
-### Home Screen
+## Home Screen
 ![Home Screen](screenshots/home_Screenshot.jpeg)
 
-### Products Screen
+## Products Screen
 ![Products Screen](screenshots/product_Screenshot.jpeg)
 
-### Details Screen
+## Details Screen
 ![Details Screen](screenshots/details_Screenshot.jpeg)
 
-### About Screen
+## About Screen
 ![About Screen](screenshots/about_Screenshot.jpeg)
 ## Author
 
