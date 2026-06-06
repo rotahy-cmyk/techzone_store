@@ -82,7 +82,6 @@ The application uses network images to display product photos.
 
 ### About Screen
 ![About Screen](screenshots/about_Screenshot.png)
-
 ## Author
 
 Flutter Final Project - TechZone Store
