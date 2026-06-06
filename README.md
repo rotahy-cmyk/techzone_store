@@ -69,19 +69,19 @@ The application uses network images to display product photos.
 ## Screenshots
 
 ### Splash Screen
-![Splash Screen](screenshots/splash_Screenshot.png)
+![Splash Screen](screenshots/splash_Screenshot.jpeg)
 
 ### Home Screen
-![Home Screen](screenshots/home_Screenshot.png)
+![Home Screen](screenshots/home_Screenshot.jpeg)
 
 ### Products Screen
-![Products Screen](screenshots/product_Screenshot.png)
+![Products Screen](screenshots/product_Screenshot.jpeg)
 
 ### Details Screen
-![Details Screen](screenshots/details_Screenshot.png)
+![Details Screen](screenshots/details_Screenshot.jpeg)
 
 ### About Screen
-![About Screen](screenshots/about_Screenshot.png)
+![About Screen](screenshots/about_Screenshot.jpeg)
 ## Author
 
 Flutter Final Project - TechZone Store
