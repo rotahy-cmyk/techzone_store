@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import '../controllers/product_controller.dart';
 import 'details_screen.dart';
+import '../controllers/category_controller.dart';
+
 
 class ProductsScreen extends StatelessWidget {
   const ProductsScreen({super.key});
@@ -8,6 +10,7 @@ class ProductsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final products = ProductController.products;
+    final categories = CategoryController.categories;
 
     return Scaffold(
       backgroundColor: const Color(0xff0D0D0D),
@@ -124,47 +127,20 @@ class ProductsScreen extends StatelessWidget {
               const SizedBox(height: 25),
 
               /// CATEGORIES
-              SizedBox(
-                height: 100,
-                child: ListView(
-                  scrollDirection: Axis.horizontal,
-                  children: [
-
-                    category(Icons.apps, "All", true),
-
-                    category(
-                      Icons.sports_esports,
-                      "Gaming",
-                      false,
-                    ),
-
-                    category(
-                      Icons.headphones,
-                      "Audio",
-                      false,
-                    ),
-
-                    category(
-                      Icons.laptop,
-                      "Laptop",
-                      false,
-                    ),
-
-                    category(
-                      Icons.watch,
-                      "Watch",
-                      false,
-                    ),
-
-                    category(
-                      Icons.grid_view,
-                      "More",
-                      false,
-                    ),
-                  ],
-                ),
-              ),
-
+             SizedBox(
+  height: 100,
+  child: ListView.builder(
+    scrollDirection: Axis.horizontal,
+    itemCount: categories.length,
+    itemBuilder: (context, index) {
+      return category(
+        Icons.apps,
+        categories[index].title,
+        index == 0,
+      );
+    },
+  ),
+),
               const SizedBox(height: 15),
 
               Row(
